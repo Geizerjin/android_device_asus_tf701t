@@ -2,7 +2,7 @@ TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
 
 # Inherit device configuration for tf701t.
-$(call inherit-product, device/asus/tf701t/tf701t.mk)
+$(call inherit-product, device/asus/tf701t/full_tf701t.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/slim/config/common_full_tablet_wifionly.mk)
