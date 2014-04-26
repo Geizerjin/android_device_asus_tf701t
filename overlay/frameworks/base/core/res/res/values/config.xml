@@ -262,7 +262,8 @@
     <!-- If a dock provides a lid switch, that lid can be removed. This
          setting is used to determine, whether lidOpenRotation has to be
          applied. -->
-    <bool name="config_hasRemovableLid">true</bool>
+    <add-resource type="string" name="config_hasRemovableLid"></add-resource>
+    <string name="config_hasRemovableLid">true</string>
 
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
