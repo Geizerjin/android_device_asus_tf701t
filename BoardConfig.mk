@@ -104,23 +104,13 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/asus/tf701t/bluetooth
 
 # SELINUX Defines
 BOARD_SEPOLICY_DIRS := \
-    device/asus/tf701t/sepolicy
+    device/asus/tf701t/selinux
 
 BOARD_SEPOLICY_UNION := \
     file_contexts \
-    genfs_contexts \
-    app.te \
-    bdaddwriter.te \
     device.te \
-    drmserver.te \
-    init_shell.te \
     file.te \
-    sensors_config.te \
-    system.te \
-    zygote.te \
-    healthd.te \
     domain.te \
-    ueventd.te
 
 BOARD_HARDWARE_CLASS := device/asus/tf701t/cmhw/
 
