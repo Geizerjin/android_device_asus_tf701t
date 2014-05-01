@@ -1,1 +1,1 @@
-allow sysfs_devices_tegradc sysfs:filesystem associate;
+type sysfs_devices_tegradc, fs_type, sysfs_type;
